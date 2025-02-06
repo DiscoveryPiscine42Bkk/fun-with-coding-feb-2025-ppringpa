@@ -15,7 +15,7 @@ $(document).ready(function () {
 
     function loadTasks() {
         const cookies = getCookies();
-        return cookies.tasks ? JSON.parse(cookies.tasks) : [];
+        return cookies.tasks ? JSON.parse(cookies.tasks) : [].reverse;
     }
 
     function initToDoList() {

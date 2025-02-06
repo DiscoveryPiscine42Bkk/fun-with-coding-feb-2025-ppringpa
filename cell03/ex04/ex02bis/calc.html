@@ -75,6 +75,12 @@
                     return;
                 }
 
+                if (num1 < 0 || num2 < 0) {
+                    error("Error: Negative numbers are not allowed.");
+                    resetData();
+                    return;
+                }
+                
                 if (!operand) {
                     error("Error: Please select an operand.");
                     return;
