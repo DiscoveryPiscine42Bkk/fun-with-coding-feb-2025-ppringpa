@@ -1,0 +1,10 @@
+body {
+    align-items: left;
+    justify-content: left;
+    display: flex;
+}
+
+button {
+    color: black;
+    cursor: pointer;
+}
