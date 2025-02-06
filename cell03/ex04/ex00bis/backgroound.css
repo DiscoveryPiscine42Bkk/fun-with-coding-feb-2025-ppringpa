@@ -1,6 +1,6 @@
 body {
-    align-items: left;
-    justify-content: left;
+    align-items: flex;
+    justify-content: flex;
     display: flex;
 }
 
